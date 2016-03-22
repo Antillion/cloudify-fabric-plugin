@@ -26,7 +26,8 @@ setup(
     description='Plugin for reomtely running fabric tasks and command',
     install_requires=[
         'cloudify-plugins-common>=3.2.1',
-        'fabric==1.8.3',
+        'fabric==1.10.2',
         'six>=1.8.0',
+        'paramiko>=1.16'
     ]
 )
